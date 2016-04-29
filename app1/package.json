@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fzheng/js.sandbox/issues"
   },
-  "homepage": "https://github.com/fzheng/js.sandbox#readme"
+  "homepage": "https://github.com/fzheng/js.sandbox#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
