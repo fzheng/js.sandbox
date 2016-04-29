@@ -1,3 +1,3 @@
-module.exports = function (application) {
-  console.log(application);
-};
+function foo (app) {
+  console.log(app);
+}
