@@ -1,0 +1,19 @@
+{
+  "name": "js.sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzheng/js.sandbox.git"
+  },
+  "author": "Feng Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fzheng/js.sandbox/issues"
+  },
+  "homepage": "https://github.com/fzheng/js.sandbox#readme"
+}
