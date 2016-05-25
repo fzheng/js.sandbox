@@ -16,4 +16,4 @@ fs.createReadStream(process.argv[2])
   .pipe(es.map(function(fileData, cb){
     cb(null, JSON.stringify(fileData));
   }))
-  .pipe(process.stdout);
+  .pipe(process.stdout); // to screen
