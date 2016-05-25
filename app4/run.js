@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const es = require('event-stream');
-const output = './output.json';
 
 fs.createReadStream(process.argv[2])
   .pipe(es.map(function(fileData, cb){
