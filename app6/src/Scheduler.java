@@ -11,7 +11,7 @@ public class Scheduler {
     public Scheduler() {
         tasks = new PriorityQueue<>();
         taskRunnerThread = new Thread(new TaskRunner());
-        running = false;
+        running = true;
         taskId = new AtomicInteger(0);
         taskRunnerThread.start();
     }
@@ -90,7 +90,7 @@ public class Scheduler {
 
     public static void main(String[] args) throws InterruptedException {
         Scheduler scheduler = new Scheduler();
-        scheduler.schedule(new Task(), 100000);
+        scheduler.schedule(new Task(), 10000);
         scheduler.schedule(new Task(), 1000);
     }
 }
