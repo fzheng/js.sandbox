@@ -34,30 +34,28 @@ public class Scheduler {
         taskRunnerThread.join();
     }
 
-    public static class Task implements Comparable<Task> {
+    public static class Task implements Runnable, Comparable<Task> {
         private long timeToRun;
         private int id;
 
-        public long getTimeToRun() {
+        long getTimeToRun() {
             return timeToRun;
         }
 
-        public int getId() {
-            return id;
-        }
-
-        public void setTimeToRun(long timeToRun) {
+        void setTimeToRun(long timeToRun) {
             this.timeToRun = timeToRun;
         }
 
-        public void setId(int id) {
+        void setId(int id) {
             this.id = id;
         }
 
+        @Override
         public void run() {
             System.out.println("Running task " + id);
         }
 
+        @Override
         public int compareTo(Task other) {
             return (int) (timeToRun - other.getTimeToRun());
         }
