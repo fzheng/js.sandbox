@@ -1,0 +1,8 @@
+{
+  "name": "app7",
+  "version": "0.0.1",
+  "dependencies": {
+    "marked": "^0.3.5",
+    "hapi": "^13.0.0"
+  }
+}
