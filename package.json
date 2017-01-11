@@ -1,0 +1,11 @@
+{
+  "name": "app7",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "blankie": "^2.0.0",
+    "hapi": "^13.0.0",
+    "marked": "^0.3.5",
+    "scooter": "^4.0.0"
+  }
+}

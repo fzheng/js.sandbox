@@ -10,7 +10,7 @@ require('./used')(app);
 
 app.post('/profile', upload.array(), function (req, res, next) {
   console.log(req.body);
-  res.json(req.body);
+  // res.json(req.body);
 });
 
 app.listen(3000, function () {
