@@ -5,6 +5,7 @@
   "dependencies": {
     "blankie": "^2.0.0",
     "hapi": "^13.0.0",
+    "html-validator": "^2.2.0",
     "marked": "^0.3.5",
     "scooter": "^4.0.0"
   }
