@@ -1,0 +1,12 @@
+{
+  "name": "app7",
+  "version": "1.0.0",
+  "description": "Demo: post-quantum key exchange using fips-crypto",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-wasm-modules index.js"
+  },
+  "dependencies": {
+    "fips-crypto": "^0.2.2"
+  }
+}
