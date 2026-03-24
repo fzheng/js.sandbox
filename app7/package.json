@@ -7,6 +7,6 @@
     "start": "node --experimental-wasm-modules index.js"
   },
   "dependencies": {
-    "fips-crypto": "^0.2.2"
+    "fips-crypto": "^0.6.0"
   }
 }
